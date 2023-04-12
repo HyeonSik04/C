@@ -3,9 +3,9 @@
 
 int main() {
 	int year, result;
-	printf("³âµµ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ë…„ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf("%d", &year);
 	result = (year % 4 == 0) && (year / 100 != 0) || (year / 400 == 0);
-	(result == 1) ? printf("%d³âµµ´Â À±³âÀÔ´Ï´Ù", year) : printf("%d³âµµ´Â À±³âÀÌ ¾Æ´Õ´Ï´Ù", year);
+	(result == 1) ? printf("%dë…„ë„ëŠ” ìœ¤ë…„ì…ë‹ˆë‹¤", year) : printf("%dë…„ë„ëŠ” ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤", year);
 	return 0;
 }
