@@ -3,13 +3,13 @@
 #define SQUAREMETER 3.3058
 
 int main() {
-	double x, Meter;
+	double x, result;
 
-	printf("Æò¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("í‰ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%lf", &x);
 
-	Meter = x * SQUAREMETER;
-	printf("%lfÆò¹æ¹ÌÅÍÀÔ´Ï´Ù.", Meter);
+	result = x * SQUAREMETER;
+	printf("%lfí‰ë°©ë¯¸í„°ì…ë‹ˆë‹¤.", result);
 
 	return 0;
 }
