@@ -1,14 +1,13 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double x;
 
-	printf("½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%lf", &x);
 
-	printf("½Ç¼öÇü½ÄÀ¸·Î´Â %lfÀÔ´Ï´Ù\n",x);
-	printf("Áö¼öÇü½ÄÀ¸·Î´Â %eÀÔ´Ï´Ù",x);
+	printf("ì‹¤ìˆ˜í˜•ì‹ìœ¼ë¡œëŠ” %lfì…ë‹ˆë‹¤\n",x);
+	printf("ì§€ìˆ˜í˜•ì‹ìœ¼ë¡œëŠ” %eì…ë‹ˆë‹¤",x);
 
 	return 0;
 }
