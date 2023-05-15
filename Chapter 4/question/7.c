@@ -1,17 +1,16 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double Mass, Speed, KEnergy;
 
-	printf("Áú·®(kg): ");
+	printf("ÃÃºÂ·Â®(kg): ");
 	scanf("%lf", &Mass);
 
-	printf("¼Óµµ(m/s) : ");
+	printf("Â¼Ã“ÂµÂµ(m/s) : ");
 	scanf("%lf", &Speed);
 
 	KEnergy = 0.5 * Mass * Speed * Speed;
-	printf("¿îµ¿¿¡³ÊÁö(J): %lf", KEnergy);
+	printf("Â¿Ã®ÂµÂ¿Â¿Â¡Â³ÃŠÃÃ¶(J): %lf", KEnergy);
 
 	return 0;
 }
