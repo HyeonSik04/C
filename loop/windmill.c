@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
@@ -7,11 +6,11 @@ int main() {
 	scanf("%d", &length);
 
 	for (i = 1; i <= length; i++) {
-		for (j = 0; j < i; j++) {
+		for (j = 1; j <= i; j++) {
 			printf("*");
 		}
 
-		for (k = 0; k < length - i; k++) {
+		for (k = 1; k <= length - i; k++) {
 			printf(" ");
 		}
 
@@ -23,11 +22,11 @@ int main() {
 	}
 	
 	for (i = 1; i <= length; i++) {
-		for (j = 0; j < length - i; j++) {
+		for (j = 1; j <= length - i; j++) {
 			printf(" ");
 		}
 
-		for (k = 0; k < i; k++) {
+		for (k = 1; k <= i; k++) {
 			printf("*");
 		}
 
