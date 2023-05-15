@@ -4,30 +4,31 @@ int main(void)
 {
 	double distance;
 	int Secound, Minute, Hour, Day, RemainH, RemainS, RemainM;
-	printf("°Å¸®¸¦ ÀÔ·ÂÇÏ½Ã¿À(´ÜÀ§ : km) : ");
+	
+	printf("ê±°ë¦¬ë¥¼ ì…ë ¥í•˜ì‹œì˜¤(ë‹¨ìœ„ : km) : ");
 	scanf("%lf", &distance);
 
 	Secound = distance / C;
 
 	if (Secound < 60) {
-		printf("ºûÀº ¾à %dÃÊ°¡ °É¸³´Ï´Ù.",Secound);
+		printf("ë¹›ì€ ì•½ %dì´ˆê°€ ê±¸ë¦½ë‹ˆë‹¤.",Secound);
 	} 
 	else if (Secound >= 60) {
 		Minute = Secound / 60;
 		RemainS = Secound % 60;
 		if (Minute < 60) {
-			printf("ºûÀº ¾à %dºĞ %dÃÊ°¡ °É¸³´Ï´Ù.", Minute, RemainS);
+			printf("ë¹›ì€ ì•½ %dë¶„ %dì´ˆê°€ ê±¸ë¦½ë‹ˆë‹¤.", Minute, RemainS);
 		}
 		else if (Minute >= 60) {
 			Hour = Minute / 60;
 			RemainM = Minute % 60;
 			if (Hour < 24) {
-				printf("ºûÀº ¾à %d½Ã°£ %dºĞ %dÃÊ°¡ °É¸³´Ï´Ù.", Hour, RemainM, RemainS);
+				printf("ë¹›ì€ ì•½ %dì‹œê°„ %dë¶„ %dì´ˆê°€ ê±¸ë¦½ë‹ˆë‹¤.", Hour, RemainM, RemainS);
 			}
 			else if (Hour >= 24) {
 				Day = Hour / 24;
 				RemainH = Hour % 24;
-				printf("ºûÀº ¾à %dÀÏ %d½Ã°£ %dºĞ %dÃÊ°¡ °É¸³´Ï´Ù.", Day, RemainH, RemainM, RemainS);
+				printf("ë¹›ì€ ì•½ %dì¼ %dì‹œê°„ %dë¶„ %dì´ˆê°€ ê±¸ë¦½ë‹ˆë‹¤.", Day, RemainH, RemainM, RemainS);
 			}
 		}
 	}
