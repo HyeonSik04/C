@@ -1,15 +1,14 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double mile,meter;
 
-	printf("╦╤юою╩ ют╥бго╫ц©ю: "); //╦╤юо ╟╙ ╧ч╠Б
+	printf("К╖┬Л²╪Л²└ Л·┘К═╔М∙≤Л▀°Л≤╓: "); //К╖┬Л²╪ Й╟▓ К╟⌡Й╦╟
 	scanf("%lf", &mile);
 
-	meter = mile * 1609; //╧лем ╟Х╩Й
+	meter = mile * 1609; //К╞╦М└╟ ЙЁ└Л┌╟
 
-	printf("%.1lf ╦╤юою╨ %.2lf╧лем ют╢о╢ы", mile, meter); //ют╥б ╧чю╨ ╦╤юо ╟╙╟З ╟Х╩Й╣х ╧лем ╟╙ цБ╥б
+	printf("%.1lf К╖┬Л²╪Л²─ %.2lfК╞╦М└╟ Л·┘К▀┬К▀╓", mile, meter); //Л·┘К═╔ К╟⌡Л²─ К╖┬Л²╪ Й╟▓ЙЁ╪ ЙЁ└Л┌╟К░° К╞╦М└╟ Й╟▓ Л╤°К═╔
 
 	return 0;
 }
