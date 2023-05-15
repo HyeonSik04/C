@@ -1,16 +1,15 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double x, polynomial;
 
-	printf("½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: "); //x °ª ¹Ş±â
+	printf("ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: "); //x ê°’ ë°›ê¸°
 	scanf("%lf", &x);
 
 
-	polynomial = 3 * x * x + 7 * x + 11; //¹ŞÀº x°ªÀ¸·Î ´ÙÇ×½Ä °è»ê
+	polynomial = 3 * x * x + 7 * x + 11; //ë°›ì€ xê°’ìœ¼ë¡œ ë‹¤í•­ì‹ ê³„ì‚°
 
-	printf("´ÙÇ×½ÄÀÇ °ªÀº %.2lf", polynomial); //´ÙÇ×½ÄÀÇ °ª Ãâ·Â
+	printf("ë‹¤í•­ì‹ì˜ ê°’ì€ %.2lf", polynomial); //ë‹¤í•­ì‹ì˜ ê°’ ì¶œë ¥
 
 	return 0;
 }
