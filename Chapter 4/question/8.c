@@ -1,13 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	int x;
 
-	printf("╬ф╫╨е╟ дз╣Е╟╙ю╩ ют╥бго╫ц©ю: ");
+	printf("Л∙└Л┼╓М┌╓ Л╫■К⌠°Й╟▓Л²└ Л·┘К═╔М∙≤Л▀°Л≤╓: ");
 	scanf("%d", &x);
 
-	printf("╧╝юз:%cют╢о╢ы.",x);
+	printf("К╛╦Л·░:%cЛ·┘К▀┬К▀╓.",x);
 
 	return 0;
 }
