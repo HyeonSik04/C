@@ -1,18 +1,19 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
-	int n, i, j, k;
+	int length, i, j, k;
 
-	scanf("%d", &n);
+	scanf("%d", &length);
 
-	for (i = 1; i <= n; i++) {
-		for (j = 1; j <= n - i; j++) {
+	for (i = 1; i <= length; i++) {
+		for (j = 1; j <= length - i; j++) {
 			printf(" ");
 		}
-		for (k = 0; k < i * 2 - 1; k++) {
+    
+		for (k = 1; k <= i * 2 - 1; k++) {
 			printf("*");
 		}
+    
 		printf("\n");
 	}
 
