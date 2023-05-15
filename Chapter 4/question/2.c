@@ -7,9 +7,7 @@ int main() {
 	scanf("%x", &x);
 
 	printf("8진수로는 %#o\n",x);
-	
 	printf("10진수로는 %d\n",x);
-	
 	printf("16진수로는 %#x",x);
 
 	return 0;
