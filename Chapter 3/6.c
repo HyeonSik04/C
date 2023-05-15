@@ -1,15 +1,14 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double weight,moon_weight; 
 
-	printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ½Ã¿À(´ÜÀ§: kg): "); //¸ö¹«°Ô ÀÔ·Â¹Ş±â
+	printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì‹œì˜¤(ë‹¨ìœ„: kg): "); //ëª¸ë¬´ê²Œ ì…ë ¥ë°›ê¸°
 	scanf("%lf", &weight);
 
-	moon_weight = 70 * 0.17; //´Ş¿¡¼­ÀÇ ¸ö¹«°Ô °è»ê
+	moon_weight = 70 * 0.17; //ë‹¬ì—ì„œì˜ ëª¸ë¬´ê²Œ ê³„ì‚°
 
-	printf("´Ş¿¡¼­ÀÇ ¸ö¹«°Ô´Â %.2lfÀÔ´Ï´Ù.", moon_weight); //´Ş¿¡¼­ÀÇ ¸ö¹«°Ô Ãâ·Â
+	printf("ë‹¬ì—ì„œì˜ ëª¸ë¬´ê²ŒëŠ” %.2lfì…ë‹ˆë‹¤.", moon_weight); //ë‹¬ì—ì„œì˜ ëª¸ë¬´ê²Œ ì¶œë ¥
 
 	return 0;
 }
