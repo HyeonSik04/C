@@ -8,6 +8,7 @@ int main() {
 	tmp = x;
 	x = y;
 	y = tmp;
+	
 	printf("x=%d y=%d", x, y);
 
 	return 0;
