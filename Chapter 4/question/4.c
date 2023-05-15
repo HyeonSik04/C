@@ -1,14 +1,13 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	double Width, Length, Height, Volum;
 
-	printf("»óÀÚÀÇ °¡·Î ¼¼·Î ³ôÀÌ¸¦ ÇÑ¹ø¿¡ ÀÔ·Â: ");
+	printf("ìƒìì˜ ê°€ë¡œ ì„¸ë¡œ ë†’ì´ë¥¼ í•œë²ˆì— ì…ë ¥: ");
 	scanf("%lf %lf %lf", &Width, &Length, &Height);
 
 	Volum = Width * Length * Height;
-	printf("»óÀÚÀÇ ºÎÇÇ´Â %lfÀÔ´Ï´Ù.", Volum);
+	printf("ìƒìì˜ ë¶€í”¼ëŠ” %lfì…ë‹ˆë‹¤.", Volum);
 
 	return 0;
 }
