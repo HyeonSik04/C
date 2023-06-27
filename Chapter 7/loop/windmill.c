@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	int length, i, j, k, l, m;
+	int length, j, k, l, m;
 
 	scanf("%d", &length);
 
-	for (i = 1; i <= length; i++) {
+	for (int i = 1; i <= length; i++) {
 		for (j = 1; j <= i; j++) {
 			printf("*");
 		}
@@ -21,7 +21,7 @@ int main() {
 		printf("\n");
 	}
 	
-	for (i = 1; i <= length; i++) {
+	for (int i = 1; i <= length; i++) {
 		for (j = 1; j <= length - i; j++) {
 			printf(" ");
 		}
