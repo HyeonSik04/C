@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-	int length, j, k, l, m;
+	int length;
 
 	scanf("%d", &length);
 
 	for (int i = 1; i <= length; i++) {
-		for (j = 1; j <= i; j++) {
+		for (int j = 1; j <= i; j++) {
 			printf("*");
 		}
 
-		for (k = 1; k <= length - i; k++) {
+		for (int k = 1; k <= length - i; k++) {
 			printf(" ");
 		}
 
-		for (l = 0; l <= length - i; l++) {
+		for (int l = 0; l <= length - i; l++) {
 			printf("*");
 		}
 
@@ -22,19 +22,19 @@ int main() {
 	}
 	
 	for (int i = 1; i <= length; i++) {
-		for (j = 1; j <= length - i; j++) {
+		for (int j = 1; j <= length - i; j++) {
 			printf(" ");
 		}
 
-		for (k = 1; k <= i; k++) {
+		for (int k = 1; k <= i; k++) {
 			printf("*");
 		}
 
-		for (l = 1; l < i; l++) {
+		for (int l = 1; l < i; l++) {
 			printf(" ");
 		}
 
-		for (m = 0; m <= length - i; m++) {
+		for (int m = 0; m <= length - i; m++) {
 			printf("*");
 		}
 
